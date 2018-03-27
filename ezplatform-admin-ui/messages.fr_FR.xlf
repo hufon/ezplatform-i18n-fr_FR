@@ -48,7 +48,7 @@
       </trans-unit>
       <trans-unit id="84348d405f3829787a5dfa80fbe5abbf07e3c118" resname="custom_url_alias_add_form.remove">
         <source>Delete</source>
-        <target state="new">Supprimer</target>
+        <target state="new">Supprimer./b</target>
         <note>key: custom_url_alias_add_form.remove</note>
       </trans-unit>
 
