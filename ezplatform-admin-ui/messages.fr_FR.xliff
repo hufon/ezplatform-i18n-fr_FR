@@ -6,13 +6,52 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="07ec12f4689ee90ade282338b25b99b9677b0d08" resname="form.validation_error" approved="yes">
-        <source>form.validation_error</source>
-        <target xml:lang="fr">Le formulaire n'a pas été validé</target>
-        <note>key: form.validation_error</note>
-        <jms:reference-file line="132">Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
-        <jms:reference-file line="49">Resources/views/Role/update_role.html.twig</jms:reference-file>
+      <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password">
+        <source>Forgot password?</source>
+        <target state="new">Mot de passe oublié</target>
+        <note>key: authentication.forgot_password</note>
       </trans-unit>
+      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
+        <source>Password</source>
+        <target state="new">Mot de passe</target>
+        <note>key: authentication.password</note>
+      </trans-unit>
+      <trans-unit id="7a3631c8f70b8b52f902530ad052c71609eb7177" resname="authentication.reset_your_password">
+        <source>Reset your password</source>
+        <target state="new">Mot de passe oublié</target>
+        <note>key: authentication.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
+        <source>Login</source>
+        <target state="new">Login</target>
+        <note>key: authentication.submit</note>
+      </trans-unit>
+      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username">
+        <source>Username</source>
+        <target state="new">Nom d'utilisateur</target>
+        <note>key: authentication.username</note>
+      </trans-unit>
+      <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
+        <source>Admin</source>
+        <target state="new">Admin</target>
+        <note>key: breadcrumb.admin</note>
+      </trans-unit>
+      <trans-unit id="74954052fb86d856c77ee642195c0c0b23bf9e70" resname="breadcrumb.user_preferences">
+        <source>User Preferences</source>
+        <target state="new">Préférences utilisateurs</target>
+        <note>key: breadcrumb.user_preferences</note>
+      </trans-unit>
+      <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
+        <source>Create</source>
+        <target state="new">Créer</target>
+        <note>key: custom_url_alias_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="84348d405f3829787a5dfa80fbe5abbf07e3c118" resname="custom_url_alias_add_form.remove">
+        <source>Delete</source>
+        <target state="new">Supprimer</target>
+        <note>key: custom_url_alias_add_form.remove</note>
+      </trans-unit>
+
     </body>
   </file>
 </xliff>
